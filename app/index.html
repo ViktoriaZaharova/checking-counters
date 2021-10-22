@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>Поверка счетчиков воды
+    в Санкт-Петербурге и
+    Ленинградской области</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:image" content="path/to/image.jpg">
+  <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+
+  <!-- Chrome, Firefox OS and Opera -->
+  <meta name="theme-color" content="#000">
+  <!-- Windows Phone -->
+  <meta name="msapplication-navbutton-color" content="#000">
+  <!-- iOS Safari -->
+  <meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css"
+        integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"/>
+  <link rel="stylesheet" href="css/libs.min.css">
+  <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+
+<header>
+  <div class="container">
+    <a href="index.html" class="logo">
+      <span class="logo-icon"><img src="img/logo.png" alt=""></span>
+      <span class="logo-text">Название
+Компании</span>
+    </a>
+
+    <ul class="menu">
+      <li><a href="#documents" class="go_to">Документы</a></li>
+      <li><a href="#question" class="go_to">Вопрос-ответ</a></li>
+      <li><a href="#reviews" class="go_to">Отзывы</a></li>
+      <li><a href="#price" class="go_to">Цены</a></li>
+      <li><a href="#contacts" class="go_to">Контакты</a></li>
+    </ul>
+
+    <div class="header-box">
+      <a href="tel:+7(812)2008496" class="phone">8 812 200-84-96</a>
+      <a href="#callModal" class="color-red links-call open_modal">
+        <span class="links-call__icon"><img src="img/phone.svg" alt=""></span>
+        <span class="links-call__text">Позвоните мне</span>
+      </a>
+    </div>
+
+    <button type="button" class="btn-burger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+</header>
+
+<main class="home">
+  <div class="container">
+    <div class="main-content">
+      <h1>Поверка счетчиков воды
+        в Санкт-Петербурге и
+        Ленинградской области</h1>
+
+      <div class="price">550 рублей за счетчик</div>
+      <div class="box-text"><p>Полный пакет документов и регистрация во фгис "аршин"</p></div>
+
+      <form method="post" class="form">
+        <label>
+          <input type="text" placeholder="+7 (___) - ___ - __ - __" name="phone" required>
+        </label>
+        <button type="submit" class="btn btn-accent">Отправить заявку</button>
+      </form>
+    </div>
+    <div class="main-img"><img src="img/counters.png" alt=""></div>
+  </div>
+</main>
+
+<section class="advantages p-130">
+  <div class="container">
+    <div class="title-wrapper">
+      <h2>Приемущества сервиса
+        “Название сервиса”</h2>
+
+      <div class="statistic-box">
+        <p><span class="color-red">1 тысячу</span> заявок обрабатываем ежедневно</p>
+        <p><span class="color-red">15 часов</span> в среднем проходит от заявки до результата</p>
+      </div>
+    </div>
+
+    <div class="advantages-box">
+      <div class="advantages-box__icon"><img src="img/writing.png" alt=""></div>
+      <div class="advantages-box__text">
+        <h3>Принимаем заявки онлайн 24/7</h3>
+        <p>Не тратьте время на звонок. <a href="#" class="color-accent links-accent">Оформите ее онлайн</a> в любое
+          время, а диспетчер сам перезвонит вам</p>
+      </div>
+    </div>
+
+    <div class="advantages-box">
+      <div class="advantages-box__icon"><img src="img/badge.svg" alt=""></div>
+      <div class="advantages-box__text">
+        <h3>Сертифицированное оборудование</h3>
+        <p>Оборудование, которым пользуются наши мастера, прошло сертификацию и имеет все <a href="#"
+                                                                                             class="color-accent links-accent">соответствующие
+          документы</a></p>
+      </div>
+    </div>
+
+    <div class="advantages-box">
+      <div class="advantages-box__icon"><img src="img/accreditation.svg" alt=""></div>
+      <div class="advantages-box__text">
+        <h3>Государственная аккредитация</h3>
+        <p>На право поверки средств измерений <a href="#" class="color-accent links-accent">На сайт росаккредитации</a>
+        </p>
+      </div>
+    </div>
+
+    <div class="advantages-box">
+      <div class="advantages-box__icon"><img src="img/repair.svg" alt=""></div>
+      <div class="advantages-box__text">
+        <h3>Более 8 лет на рынке</h3>
+        <p>Наша компания существует на рынке с 2013 года и имеет огромный опыт</p>
+      </div>
+    </div>
+
+    <div class="advantages-box">
+      <div class="advantages-box__icon"><img src="img/document.svg" alt=""></div>
+      <div class="advantages-box__text">
+        <h3>Выдача пакета документов в день поверки</h3>
+        <p>Метролог в день проведения поверки <a href="#" class="color-accent links-accent">выдает документы</a> для
+          регистрации водосчетчиков в ЕИРЦ, МФЦ, ЖЕК, УК </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="stages-work bg-grey">
+  <div class="container">
+    <h2>Порядок проведения поверки</h2>
+  </div>
+  <div class="stages-work__wrapper">
+    <div class="stages-work-box stages-work-box1">
+      <div class="stages-work-box__num">01</div>
+      <div class="stages-work-box__text">
+        <h3>Подача заявки</h3>
+        <p>Вы звоните по номеру
+          или оставили заявку
+          на нашем сайте</p>
+      </div>
+    </div>
+
+    <div class="stages-work-box stages-work-box2">
+      <div class="stages-work-box__num">02</div>
+      <div class="stages-work-box__text">
+        <h3>Обратный звонок</h3>
+        <p>Наш специалист
+          связывается с Вами
+          для оформления
+          заявки</p>
+      </div>
+    </div>
+
+    <div class="stages-work-box stages-work-box3">
+      <div class="stages-work-box__num">03</div>
+      <div class="stages-work-box__text">
+        <h3>Выезд на объект
+        </h3>
+        <p>В указанное время наш
+          работник прибудет для
+          выполнения работ</p>
+      </div>
+    </div>
+
+    <div class="stages-work-box stages-work-box4">
+      <div class="stages-work-box__num">04</div>
+      <div class="stages-work-box__text">
+        <h3>Поверка счетчиков</h3>
+        <p>Мастер у Вас на дому
+          выполнит поверку без
+          снятия счетчика</p>
+      </div>
+    </div>
+
+    <div class="stages-work-box stages-work-box5">
+      <div class="stages-work-box__num">05</div>
+      <div class="stages-work-box__text">
+        <h3>Подача заявки</h3>
+        <p>По окончанию вы
+          получите весь
+          комплект
+          документов</p>
+      </div>
+    </div>
+    <img src="img/bg2.png" alt="" class="stages-work__bg">
+
+    <a href="#callModal" class="btn btn-red open_modal btn-call">Заказать поверку</a>
+  </div>
+</section>
+
+<section class="data-entry p-130">
+  <div class="container">
+    <h2>Внесение данных в АРШИН</h2>
+
+    <div class="wrapper">
+      <div class="data-entry__content">
+        <div class="box-text">
+          <p>«Аршин» — это Федеральный информационный фонд
+            по обеспечению единства измерений РОССТАНДАРТа.</p>
+
+          <p>В нем заносятся данные по поверкам всех измерительных
+            приборов. Теперь при поверке не выдается свидетельство
+            о поверке, вместо этого все данные вносятся в данный реестр.
+            Это является доказательством того, что счетчик поверен.</p>
+
+          <p>Проверить поверку своего счетчика вы можете перейдя
+            по ссылке <a href="#" target="_blank" class="color-accent links-accent">https://fgis.gost.ru/fundmetrology/registry</a>
+          </p>
+
+          <p><strong>Специалисты нашей компании вносят данные по поверкам
+            счетчиков <span class="color-red">в течении 2 дней.</span></strong></p>
+        </div>
+      </div>
+      <div class="data-entry__img">
+        <img src="img/data.jpg" alt="">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="documents" id="documents">
+  <div class="container">
+    <h2>Документы, которые Вы получите</h2>
+
+    <div class="wrapper">
+      <a href="img/document1.jpg" class="documents-box" data-fancybox="images">
+        <img src="img/document1.jpg" alt="">
+        <span class="documents-box__icon"><img src="img/search.svg" alt=""></span>
+      </a>
+      <a href="img/document3.jpg" class="documents-box" data-fancybox="images">
+        <img src="img/document3.jpg" alt="">
+        <span class="documents-box__icon"><img src="img/search.svg" alt=""></span>
+      </a>
+      <a href="img/document2.jpg" class="documents-box" data-fancybox="images">
+        <img src="img/document2.jpg" alt="">
+        <span class="documents-box__icon"><img src="img/search.svg" alt=""></span>
+      </a>
+      <a href="img/document3.jpg" class="documents-box" data-fancybox="images">
+        <img src="img/document3.jpg" alt="">
+        <span class="documents-box__icon"><img src="img/search.svg" alt=""></span>
+      </a>
+    </div>
+  </div>
+</section>
+
+
+<section class="price-section" id="price">
+  <div class="container">
+    <h2>Прайс на поверку счетчиков</h2>
+
+    <div class="table-responsive">
+      <table class="price-table">
+        <thead>
+        <tr>
+          <th>Кол-во приборов</th>
+          <th>Поверка в Санкт-Петерберге</th>
+          <th>Поверка в Ленин. области</th>
+          <th>Поверка “день в день”</th>
+          <th>Заявка</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        <tr>
+          <td>
+            <div class="number-appliance">
+              <p>1</p>
+            </div>
+          </td>
+          <td>
+            <div class="price-val">590 р.</div>
+          </td>
+          <td>
+            <div class="price-val">890 р.</div>
+          </td>
+          <td>
+            <div class="price-val">1290 р.</div>
+          </td>
+          <td>
+            <a href="#callModal" class="btn btn-border open_modal">Заказать </a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class="number-appliance">
+              <div class="sale">скидка
+                <span>на 2ой</span></div>
+              <p>2</p>
+            </div>
+          </td>
+          <td>
+            <div class="price-wrapper">
+              <div class="old-price">700 р.</div>
+              <div class="new-price">590 р.</div>
+            </div>
+          </td>
+          <td>
+            <div class="price-wrapper">
+              <div class="old-price">700 р.</div>
+              <div class="new-price">890 р.</div>
+            </div>
+          </td>
+          <td>
+            <div class="price-wrapper">
+              <div class="old-price">700 р.</div>
+              <div class="new-price">890 р.</div>
+            </div>
+          </td>
+          <td>
+            <a href="#callModal" class="btn btn-border open_modal">Заказать </a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class="number-appliance">
+              <div class="sale"></div>
+              <p>3</p>
+            </div>
+          </td>
+          <td>
+            <div class="price-val">590 р.</div>
+          </td>
+          <td>
+            <div class="price-val">890 р.</div>
+          </td>
+          <td>
+            <div class="price-val">1290 р.</div>
+          </td>
+          <td>
+            <a href="#callModal" class="btn btn-border open_modal">Заказать </a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class="number-appliance">
+              <div class="sale">Акция
+                <span>3+1</span></div>
+              <p>4</p>
+            </div>
+          </td>
+          <td>
+            <div class="price-wrapper">
+              <div class="old-price">700 р.</div>
+              <div class="new-price">590 р.</div>
+            </div>
+          </td>
+          <td>
+            <div class="price-wrapper">
+              <div class="old-price">700 р.</div>
+              <div class="new-price">890 р.</div>
+            </div>
+          </td>
+          <td>
+            <div class="price-wrapper">
+              <div class="old-price">700 р.</div>
+              <div class="new-price">890 р.</div>
+            </div>
+          </td>
+          <td>
+            <a href="#callModal" class="btn btn-border open_modal">Заказать </a>
+          </td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+
+
+    <div class="composition">
+      <h3>Что входит в стоимость поверки</h3>
+      <div class="wrapper">
+        <ul class="list-check">
+          <li>Приезд специалиста в <br>
+            назначенное Вами время
+          </li>
+          <li>Внешний осмотр приборов <br>
+            учета воды
+          </li>
+          <li>Поверка герметичности и <br>
+            соединений
+          </li>
+        </ul>
+        <ul class="list-check">
+          <li>Поверка порога <br>
+            чувствительности счетчика
+          </li>
+          <li>Поверка приборов с помощью <br>
+            поверчной установки ВПУ ЭНЕРГО М
+          </li>
+          <li>Определение относительной<br>
+            погрешности водосчетчиков
+          </li>
+        </ul>
+        <ul class="list-check">
+          <li>Выдаем Вам протокол поверки<br>
+            учета приборов воды
+          </li>
+          <li>Свидетельство о поверке на<br>
+            Ваш водосчетчик
+          </li>
+          <li>Копия об аккредитации<br>
+            нашей компании
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="services p-130">
+  <div class="container">
+    <h2>Оказываем услуги поверки счетчиков по
+      Санкт-Петербургу и Ленинградской области</h2>
+
+    <div class="wrapper">
+      <div class="services-map">
+        <img class="services-map__img" alt="" src="img/map-vector.png">
+
+        <div class="services-map-hover services-map-hover1" data-tab="1">
+          <p>1</p><span>Адмиралтейский</span>
+        </div>
+        <div class="services-map-hover services-map-hover2" data-tab="2">
+          <p>2</p><span>Василеостровский</span>
+        </div>
+        <div class="services-map-hover services-map-hover3" data-tab="3">
+          <p>3</p><span>Петроградский</span>
+        </div>
+        <div class="services-map-hover services-map-hover4" data-tab="4">
+          <p>4</p><span>Центральный</span>
+        </div>
+        <div class="services-map-hover services-map-hover5" data-tab="5">
+          <p>5</p><span>Кировский</span>
+        </div>
+        <div class="services-map-hover services-map-hover6" data-tab="6">
+          <p>6</p><span>Московский</span>
+        </div>
+        <div class="services-map-hover services-map-hover7" data-tab="7">
+          <p>7</p><span>Фрунзенский</span>
+        </div>
+        <div class="services-map-hover services-map-hover8" data-tab="8">
+          <p>8</p><span>Невский</span>
+        </div>
+        <div class="services-map-hover services-map-hover9" data-tab="9">
+          <p>9</p><span>Красногвардейский</span>
+        </div>
+        <div class="services-map-hover services-map-hover10" data-tab="10">
+          <p>10</p><span>Калининский</span>
+        </div>
+        <div class="services-map-hover services-map-hover11 active" data-tab="11">
+          <p>11</p><span>Выборгский</span>
+        </div>
+        <div class="services-map-hover services-map-hover12" data-tab="12">
+          <p>12</p><span>Приморский</span>
+        </div>
+        <div class="services-map-hover services-map-hover13" data-tab="13">
+          <p>13</p><span>Кронштадтский</span>
+        </div>
+        <div class="services-map-hover services-map-hover14" data-tab="14">
+          <p>14</p><span>Петродворцовый</span>
+        </div>
+        <div class="services-map-hover services-map-hover15" data-tab="15">
+          <p>15</p><span>Красносельский</span>
+        </div>
+        <div class="services-map-hover services-map-hover16" data-tab="16">
+          <p>16</p><span>Кронштадтский</span>
+        </div>
+        <div class="services-map-hover services-map-hover17" data-tab="17">
+          <p>17</p><span>Колпинский</span>
+        </div>
+        <div class="services-map-hover services-map-hover18" data-tab="18">
+          <p>18</p><span>Курортный</span>
+        </div>
+      </div>
+
+      <div class="services-content">
+        <ul class="services-list list-number">
+          <li><a href="#" class="services-list__links" data-tab="1">Адмиралтейский</a></li>
+          <li><a href="#" class="services-list__links" data-tab="2">Василеостровский</a></li>
+          <li><a href="#" class="services-list__links" data-tab="3">Петроградский</a></li>
+          <li><a href="#" class="services-list__links" data-tab="4">Центральный</a></li>
+          <li><a href="#" class="services-list__links" data-tab="5">Кировский</a></li>
+          <li><a href="#" class="services-list__links" data-tab="6">Московский</a></li>
+          <li><a href="#" class="services-list__links" data-tab="7">Фрунзенский</a></li>
+          <li><a href="#" class="services-list__links" data-tab="8">Невский</a></li>
+          <li><a href="#" class="services-list__links" data-tab="9">Красногвардейский</a></li>
+          <li><a href="#" class="services-list__links" data-tab="10">Калининский</a></li>
+          <li><a href="#" class="active services-list__links" data-tab="11">Выборгский</a></li>
+          <li><a href="#" class="services-list__links" data-tab="12">Приморский</a></li>
+          <li><a href="#" class="services-list__links" data-tab="13">Кронштадтский</a></li>
+          <li><a href="#" class="services-list__links" data-tab="14">Петродворцовый</a></li>
+          <li><a href="#" class="services-list__links" data-tab="15">Красносельский</a></li>
+          <li><a href="#" class="services-list__links" data-tab="16">Пушкинский</a></li>
+          <li><a href="#" class="services-list__links" data-tab="17">Колпинский</a></li>
+          <li><a href="#" class="services-list__links" data-tab="18">Курортный</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="reviews" id="reviews">
+  <div class="container">
+    <h2>Отзывы, которыми мы гордимся </h2>
+    <div class="reviews-video wrapper">
+      <a href="https://www.youtube.com/embed/WjoplqS1u18" data-fancybox="video" class="reviews-video-box">
+        <img src="img/reviews1.jpg" alt="">
+        <span class="reviews-video-box__btn">
+          <span class="icon-play"></span>
+        </span>
+      </a>
+      <a href="https://www.youtube.com/embed/WjoplqS1u18" data-fancybox="video" class="reviews-video-box">
+        <img src="img/reviews2.jpg" alt="">
+        <span class="reviews-video-box__btn">
+          <span class="icon-play"></span>
+        </span>
+      </a>
+      <a href="https://www.youtube.com/embed/WjoplqS1u18" data-fancybox="video" class="reviews-video-box">
+        <img src="img/reviews3.jpg" alt="">
+        <span class="reviews-video-box__btn">
+          <span class="icon-play"></span>
+        </span>
+      </a>
+    </div>
+
+    <div class="reviews-wrapper">
+      <div class="reviews-box">
+        <div class="reviews-box__content">
+          <p>Нам в квартире требовалось провести поверку водяных счетчиков.
+            Так что мы решили позвонить в эту компанию и вызвать мастера.
+            Приехал он в удобное для нас время. Сами счётчики проверял на
+            месте и заняло это менее часа. После чего нам были выданы все
+            документы подтверждающие поверку. В общем, работают здесь
+            достаточно быстро и качественно, так что мы всем довольны.</p>
+        </div>
+        <div class="reviews-box__footer">
+          <h3>Ирина Николаевна
+          </h3>
+          <p>Выборгский район</p>
+        </div>
+      </div>
+      <div class="reviews-box">
+        <div class="reviews-box__content">
+          <p>Оформила заявку, мастер пришёл строго в оговорённое время, за
+            что уже спасибо. Всё сделал быстро и аккуратно, без навязывание
+            дополнительных услуг. Через 2 дня уже Вы светились в базе и сразу
+            отнесла документы в управляющую компанию. Всё оформили сразу.
+            Большое спасибо.</p>
+        </div>
+        <div class="reviews-box__footer">
+          <h3>Ирина Николаевна
+          </h3>
+          <p>Выборгский район</p>
+        </div>
+      </div>
+    </div>
+
+    <a href="#" class="btn btn-accent btn-all-reviews">Все отзывы</a>
+  </div>
+</section>
+
+<section class="contacts" id="contacts">
+  <div class="map">
+    <iframe src="https://yandex.ru/map-widget/v1/-/CCUqfHhzWD" width="560" height="400" frameborder="1"
+            allowfullscreen="true" style="position:relative;"></iframe>
+  </div>
+  <div class="container">
+    <div class="contacts-box">
+      <h2>Контакты</h2>
+
+      <div class="contacts-box__item">
+        <h3>Адрес:</h3>
+        <p>Санкт-Петербург, Россия,
+          ул. Магнитогорская, 30</p>
+      </div>
+
+      <div class="contacts-box__item">
+        <h3>E-mail:</h3>
+        <a href="mailto:mail@merimvodu.ru" class="mail links-contacts">mail@merimvodu.ru</a>
+      </div>
+
+      <div class="contacts-box__item">
+        <h3>Телефон:</h3>
+        <a href="tel:+78122009578" class="phone-contacts links-contacts">8 812 200-95-78</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-box">
+      <a href="index.html" class="logo">
+        <span class="logo-icon"><img src="img/logo-footer.png" alt=""></span>
+        <span class="logo-text">Название
+Компании</span>
+      </a>
+
+      <div class="description-company">
+        Быстрая и безопасная поверка
+        счетчик в Санкт-Петербурге и
+        Ленинградской области
+      </div>
+
+      <div class="copyright">2021 © Все права защищены</div>
+    </div>
+
+    <div class="footer-box">
+      <h3>Меню</h3>
+      <ul class="menu-footer">
+        <li><a href="#">Документы</a></li>
+        <li><a href="#">Вопрос-ответ</a></li>
+        <li><a href="#">Отзывы</a></li>
+        <li><a href="#">Цены</a></li>
+        <li><a href="#">Контакты</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-box footer-box-contacts">
+      <h3>Контакты</h3>
+
+      <div class="footer-box__item">
+        <span class="footer-box__icon"><img src="img/marker.svg" alt=""></span>
+        <span class="footer-box__text">Санкт-Петербург, Россия,
+          ул. Магнитогорская, 30
+        </span>
+      </div>
+      <a href="mailto:mail@merimvodu.ru" class="footer-box__item">
+        <span class="footer-box__icon"><img src="img/envelope.svg" alt=""></span>
+        <span class="footer-box__text">mail@merimvodu.ru
+        </span>
+      </a>
+
+      <a href="tel:+78122009578" class="footer-box__item">
+        <span class="footer-box__icon"><img src="img/phone-call.svg" alt=""></span>
+        <span class="footer-box__text">8 812 200-95-78
+        </span>
+      </a>
+
+      <ul class="list-social">
+        <li>
+          <a href="#"><i class="fab fa-odnoklassniki"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fab fa-vk"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fab fa-telegram-plane"></i></a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="footer-box">
+      <h3>Вызвать мастера</h3>
+      <form method="post" class="form">
+        <label>
+          <input type="text" placeholder="+7 (___) - ___ - __ - __" name="phone" required>
+        </label>
+        <button type="submit" class="btn btn-red">Отправить заявку</button>
+      </form>
+    </div>
+  </div>
+</footer>
+
+<!--modal-->
+<div class="modal__div" id="callModal">
+  <div class="modal__wrapper">
+    <div class="modal__close"><img src="img/cross.svg" alt=""></div>
+    <h3>Заполните форму и наш специалист
+      свяжется с Вам в течении <strong class="color-red">5 минут!</strong></h3>
+
+    <form method="post" class="form">
+
+      <label><input type="text" name="name" placeholder="Ваше имя"></label>
+
+      <label><input type="text" name="phone" placeholder="+7 (___) - ___ - __ - __" required></label>
+
+      <button type="submit" class="btn-accent btn">Отправить заявку</button>
+    </form>
+  </div>
+</div>
+
+<div class="modal__div" id="thanksModal">
+  <div class="modal__wrapper">
+    <div class="modal__close"><img src="img/cross.svg" alt=""></div>
+    <h3>Спасибо!</h3>
+
+    <div class="box-text">
+      <p>Ваша заявка принята. Ожидайте
+        звонка специалиста.</p>
+    </div>
+
+    <a href="#" class="btn btn-accent btn-close-modal">Ок, жду звонка</a>
+  </div>
+</div>
+<!-- Пoдлoжкa -->
+<div class="overlay"></div>
+
+
+<script src="js/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"
+        integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"
+        integrity="sha512-d4KkQohk+HswGs6A1d6Gak6Bb9rMWtxjOa0IiY49Q3TeFd5xAzjWXDCBW9RS7m86FQ4RzM2BdHmdJnnKRYknxw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="js/common.js"></script>
+
+</body>
+</html>
