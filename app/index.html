@@ -32,6 +32,22 @@
 
 <body>
 
+<div class="mobile-menu">
+  <div class="mobile-menu__close"><img src="img/cross.svg" alt=""></div>
+  <a href="index.html" class="logo">
+    <span class="logo-icon"><img src="img/logo.png" alt=""></span>
+    <span class="logo-text">Название
+Компании</span>
+  </a>
+  <ul class="menu">
+    <li><a href="#documents" class="go_to">Документы</a></li>
+    <li><a href="#question" class="go_to">Вопрос-ответ</a></li>
+    <li><a href="#reviews" class="go_to">Отзывы</a></li>
+    <li><a href="#price" class="go_to">Цены</a></li>
+    <li><a href="#contacts" class="go_to">Контакты</a></li>
+  </ul>
+</div>
+
 <header>
   <div class="container">
     <a href="index.html" class="logo">
@@ -433,7 +449,10 @@
 
     <div class="wrapper">
       <div class="services-map">
-        <img class="services-map__img" alt="" src="img/map-vector.png">
+        <img class="services-map__img services-map__img-pc" alt="" src="img/map-vector.png">
+
+        <img class="services-map__img services-map__img-mob" alt="" src="img/map-mobile.png">
+
 
         <div class="services-map-hover services-map-hover1" data-tab="1">
           <p>1</p><span>Адмиралтейский</span>
@@ -493,24 +512,24 @@
 
       <div class="services-content">
         <ul class="services-list list-number">
-          <li><a href="#" class="services-list__links" data-tab="1">Адмиралтейский</a></li>
-          <li><a href="#" class="services-list__links" data-tab="2">Василеостровский</a></li>
-          <li><a href="#" class="services-list__links" data-tab="3">Петроградский</a></li>
-          <li><a href="#" class="services-list__links" data-tab="4">Центральный</a></li>
-          <li><a href="#" class="services-list__links" data-tab="5">Кировский</a></li>
-          <li><a href="#" class="services-list__links" data-tab="6">Московский</a></li>
-          <li><a href="#" class="services-list__links" data-tab="7">Фрунзенский</a></li>
-          <li><a href="#" class="services-list__links" data-tab="8">Невский</a></li>
-          <li><a href="#" class="services-list__links" data-tab="9">Красногвардейский</a></li>
-          <li><a href="#" class="services-list__links" data-tab="10">Калининский</a></li>
-          <li><a href="#" class="active services-list__links" data-tab="11">Выборгский</a></li>
-          <li><a href="#" class="services-list__links" data-tab="12">Приморский</a></li>
-          <li><a href="#" class="services-list__links" data-tab="13">Кронштадтский</a></li>
-          <li><a href="#" class="services-list__links" data-tab="14">Петродворцовый</a></li>
-          <li><a href="#" class="services-list__links" data-tab="15">Красносельский</a></li>
-          <li><a href="#" class="services-list__links" data-tab="16">Пушкинский</a></li>
-          <li><a href="#" class="services-list__links" data-tab="17">Колпинский</a></li>
-          <li><a href="#" class="services-list__links" data-tab="18">Курортный</a></li>
+          <li><div class="services-list__links" data-tab="1">Адмиралтейский</div></li>
+          <li><div class="services-list__links" data-tab="2">Василеостровский</div></li>
+          <li><div class="services-list__links" data-tab="3">Петроградский</div></li>
+          <li><div class="services-list__links" data-tab="4">Центральный</div></li>
+          <li><div class="services-list__links" data-tab="5">Кировский</div></li>
+          <li><div class="services-list__links" data-tab="6">Московский</div></li>
+          <li><div class="services-list__links" data-tab="7">Фрунзенский</div></li>
+          <li><div class="services-list__links" data-tab="8">Невский</div></li>
+          <li><div class="services-list__links" data-tab="9">Красногвардейский</div></li>
+          <li><div class="services-list__links" data-tab="10">Калининский</div></li>
+          <li><div class="active services-list__links" data-tab="11">Выборгский</div></li>
+          <li><div class="services-list__links" data-tab="12">Приморский</div></li>
+          <li><div class="services-list__links" data-tab="13">Кронштадтский</div></li>
+          <li><div class="services-list__links" data-tab="14">Петродворцовый</div></li>
+          <li><div class="services-list__links" data-tab="15">Красносельский</div></li>
+          <li><div class="services-list__links" data-tab="16">Пушкинский</div></li>
+          <li><div class="services-list__links" data-tab="17">Колпинский</div></li>
+          <li><div class="services-list__links" data-tab="18">Курортный</div></li>
         </ul>
       </div>
     </div>
@@ -623,7 +642,7 @@
       <div class="copyright">2021 © Все права защищены</div>
     </div>
 
-    <div class="footer-box">
+    <div class="footer-box footer-box-menu">
       <h3>Меню</h3>
       <ul class="menu-footer">
         <li><a href="#">Документы</a></li>
@@ -668,7 +687,7 @@
       </ul>
     </div>
 
-    <div class="footer-box">
+    <div class="footer-box footer-box-call">
       <h3>Вызвать мастера</h3>
       <form method="post" class="form">
         <label>
